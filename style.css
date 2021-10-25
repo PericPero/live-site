@@ -1,0 +1,476 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.pre-header {
+  background-color: black;
+  height: 60px;
+  color: white;
+  padding-top: 15px;
+}
+.pre-header .prvi-meni {
+  list-style: none;
+  color: white;
+}
+.pre-header .prvi-meni li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.pre-header .prvi-meni li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.glavna-nav .drugi-meni {
+  list-style: none;
+  margin-top: 20px;
+}
+.glavna-nav .drugi-meni li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.glavna-nav .drugi-meni li a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.glavna-nav .drugi-meni .free-quote-btn a {
+  background-color: blueviolet;
+  padding: 10px;
+  color: white;
+  border: 1px solid blueviolet;
+  transition: 0.2s;
+}
+.glavna-nav .drugi-meni .free-quote-btn a:hover {
+  color: blueviolet;
+  background-color: transparent;
+}
+.glavna-nav img {
+  margin-top: 10px;
+}
+.hero-section {
+  background-image: url("../slike/hero.jpg");
+  padding-top: 115px;
+  padding-bottom: 115px;
+  background-size: cover;
+}
+.hero-section h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+.hero-section p {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.hero-section a {
+  background-color: blueviolet;
+  padding: 10px;
+  color: white;
+  border: 1px solid blueviolet;
+  transition: 0.2s;
+  display: inline-block;
+  text-decoration: none;
+}
+.service-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.service-section h3 {
+  text-align: center;
+  color: blueviolet;
+  text-transform: uppercase;
+}
+.service-section h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold;
+}
+.service-section p {
+  text-align: center;
+}
+.pozadina:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+  margin-top: -30px;
+}
+.pozadina {
+  background-color: black;
+  box-shadow: 0 -1px 10px 5px rgba(0, 0, 0, 0.31);
+  -webkit-box-shadow: 0 -1px 10px 5px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0 -1px 10px 5px rgba(0, 0, 0, 0.31);
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+  transition: 0.2s;
+  margin-bottom: 100px;
+}
+
+.pozadina a {
+  color: white;
+  border: 2px solid white;
+  text-decoration: none;
+}
+.how-it-works-sections {
+  text-align: center;
+  background-image: url("../slike/works.jpg");
+  color: white;
+  background-size: cover;
+  padding-top: 100px;
+}
+.how-it-works-sections a {
+  display: block;
+  position: relative;
+  bottom: -30px;
+}
+.how-it-works-sections h3 {
+  text-align: center;
+  color: blue;
+  text-transform: uppercase;
+}
+.how-it-works-sections h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold;
+}
+.how-it-works-sections p {
+  text-align: center;
+}
+
+.govor-prodavaca {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.test {
+  background-position: center;
+  background-size: cover;
+  height: 360px;
+}
+
+.prodavac {
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  padding: 25px;
+  position: relative;
+}
+.ime-zanimanje {
+  position: absolute;
+  bottom: 25px;
+}
+
+.ime-zanimanje ::before {
+  content: "";
+  width: 3px;
+  height: 55px;
+  background-color: white;
+  position: absolute;
+  left: -10px;
+  top: 5px;
+}
+.o-nama {
+  background-image: url("../slike/o-nama.jpg");
+  color: white;
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.o-nama h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  border-bottom: 1px dotted white;
+}
+.o-nama h3::before {
+  content: "";
+  display: inline-block;
+  background-color: blue;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+.o-nama h2 {
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+.school-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.school-section h3 {
+  text-transform: uppercase;
+}
+.school-section h2 {
+  text-transform: uppercase;
+}
+.skola {
+  background-image: url("../slike/school.jpg");
+
+  height: 500px;
+  padding: 70px;
+  color: white;
+}
+.skola-tekst span {
+  background-color: blue;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+}
+.skola-tekst h4 {
+  text-transform: uppercase;
+}
+.main-cta-btn {
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: purple;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+.kontakt-sekcija {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("../slike/o-nama.jpg");
+  color: white;
+}
+.kontakt-sekcija h2,
+.kontakt-sekcija p {
+  text-align: center;
+}
+
+.kontakt-detalji h4 {
+  text-transform: uppercase;
+  border-bottom: 1px dotted white;
+}
+.kontakt-detalji p {
+  text-align: left;
+}
+.kontakt-detalji h2 {
+  text-align: left;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.kontakt-detalji h3 {
+  border-bottom: 1px dotted white;
+  text-transform: capitalize;
+}
+.col-md-7 {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid white;
+  padding: 50px;
+  padding-top: 75px;
+  padding-left: 75px;
+}
+.col-md-7 textarea,
+.col-md-7 input .col-md-7 button {
+  width: 200px;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.col-md-7 textarea {
+  height: 80px;
+  width: 600px;
+}
+.col-md-7 input {
+  width: 268px;
+}
+.col-md-7 button {
+  width: 255px;
+  margin-top: 25;
+  background-color: lightskyblue;
+  width: 268px;
+}
+.col-md-7 label {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
+.cene-sekcija {
+  text-align: center;
+  padding-bottom: 100px;
+}
+.cene-sekcija h3 {
+  text-transform: uppercase;
+  color: blueviolet;
+}
+.cene-sekcija h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.cene-sekcija p {
+  color: darkgrey;
+}
+.plan-cena:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.plan-cena {
+  background-color: black;
+  color: white;
+  padding: 25px;
+  margin-top: 50px;
+}
+.plan-cena h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+.plan-cena p {
+  text-align: center;
+}
+.plan-cena a {
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+}
+.plan-cena ul {
+  list-style: none;
+}
+.plan-cena ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+  text-align: center; /*Zasto kod sekcije cena, lista pomerena malo vise u levo?*/
+}
+.dollar {
+  font-size: 20px;
+}
+.cene {
+  border-top: 3px dotted;
+  border-bottom: 3px dotted;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.glavni-broj {
+  font-size: 60px;
+  font-style: italic;
+}
+.drugi-broj {
+  position: relative;
+  top: -30px;
+}
+.mesec {
+  position: relative;
+  left: -25px;
+}
+.cene,
+.glavni-broj,
+.drugi-broj,
+.mesec {
+  text-align: center;
+}
+.profits {
+  margin-top: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url("../slike/profits.jpg");
+  text-align: center;
+  color: white;
+}
+.profits h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.profits p {
+  font-size: 20px;
+}
+.profits a {
+  border: 2px solid;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+}
+footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+footer h4 {
+  border-bottom: 1px dotted grey;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+footer h4::before {
+  content: "";
+  display: inline-block;
+  background-color: blue;
+  margin-right: 10px;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  top: -2px;
+}
+
+footer ul {
+  list-style: none;
+  margin-top: 15px;
+}
+footer ul li a {
+  color: gray;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+footer ul li a:before {
+  content: "";
+  display: inline-block;
+  margin-right: 5px;
+  width: 17px;
+  height: 11px;
+  background-image: url("../slike/isecena-slika.png");
+}
+
+footer .icons a {
+  margin-right: 5px;
+  color: white;
+}
+footer .icons a i {
+  font-size: 28px;
+}
+.after-footer {
+  background-color: black;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+.after-footer p {
+  text-transform: uppercase;
+  color: gray;
+}
+.after-footer ul {
+  list-style: none;
+  margin: 0;
+}
+.after-footer ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.after-footer ul li a {
+  color: gray;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.after-footer ul li a ::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../slike/isecena-slika1.png"); /*Slika se ne ucitava.*/
+  margin-right: 5px;
+  width: 14px;
+  height: 11px;
+}
